@@ -1,0 +1,43 @@
+ul, li/*定义矢量图*/ { 
+    margin: 0;
+    padding: 0;
+}
+.ma {
+    width:1700px;
+}
+.span {
+    width: 228px;
+    height: 164px;
+    padding: 3px;
+    float: left;
+    background-color: #5f5750;
+}
+.span ul li {
+    display: block;
+    width: 70px;
+    height: 49px;
+    padding-top: 18px;
+    float: left;
+    line-height: 46px;
+    text-align: center;
+    font-size: 14px;
+}
+.span i{
+    display: block;/*定位块元素*/
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a/*矢量图颜色*/ {
+    color: rgba(255,255,255,0.7);
+}
+
+.tupian1/*三张图片*/ {
+    height: 170px;
+    float: right;
+}
+
+.zhentitupian ul li {
+    display: inline-block;/*定义行块元素*/
+    margin-left: 12px;/*左外边距*/
+}
